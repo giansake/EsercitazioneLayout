@@ -1,14 +1,14 @@
 .hero-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  background-color: rgb(234, 234, 234);
+  background-color: white;
   padding: 2rem;
   padding-bottom: 3rem;
 }
 
 .image-wrapper {
   position: relative;
-  padding: 1em;
+  padding: 1rem;
   background-color: #f0efef;
   border-left: solid black 1px;
   border-top: solid black 1px;
@@ -20,8 +20,8 @@
   display: flex;
   position: absolute;
   bottom: 0;
-  top: 1em;
-  left: 1em;
+  top: 1rem;
+  left: 1rem;
   z-index: 1;
   color: #e91919;
   mix-blend-mode: difference;
@@ -81,8 +81,8 @@ header {
 
 .offert {
   background-color: #f0efef;
-  height: 300px;
-  width: 300px;
+  height: 320px;
+  width: 600px;
   margin: 80px;
   position: relative;
   border: 1px black solid;
@@ -90,25 +90,25 @@ header {
 
 .img {
   height: 220px;
+  width: 360px;
 }
 
 h4 {
-  background-color: rgb(167, 166, 166);
+  background-color: #f0efef;
   position: absolute;
   bottom: 0;
   left: 0;
-  height: 80px;
-  width: 300px;
+  height: 100px;
+  width: 350.4px;
   border-top: 1px black solid;
 }
 
 .roadmap {
   background-color: #f0efef;
-  height: 700px;
-
   position: relative;
   display: grid;
   grid-template-rows: 1fr 1fr;
+  margin: 2rem;
 }
 
 footer {
@@ -121,12 +121,16 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
+  border: 1px black solid;
 }
 
 .roadmap > img {
-  width: 350px;
-  height: 200px;
+  width: 550px;
+  height: 400px;
   overflow: hidden;
+  border-radius: 20px;
+  margin: 5em;
+  border: 1px black solid;
 }
 
 .pos {
