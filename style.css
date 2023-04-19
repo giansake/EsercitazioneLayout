@@ -47,7 +47,17 @@ a {
   padding: 1em;
   border-radius: 5px;
 }
-.form-wrapper > input {
+.backgroundform {
+  background-color: whitesmoke;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 1em;
+  border-radius: 5px;
+}
+.backgroundform > input {
   width: 50%;
 }
 button {
@@ -59,7 +69,7 @@ button {
   border: 1px solid white;
   cursor: pointer;
 }
-.form-wrapper > p {
+.backgroundform > p {
   font-size: 50px;
 }
 .title {
@@ -84,6 +94,7 @@ button {
   row-gap: 3px;
   flex-wrap: wrap;
 }
+
 .image1 {
   border: 1px solid black;
   width: 400px;
@@ -100,7 +111,7 @@ button {
   height: 400px;
 }
 .images {
-  width: 100%;
+  width: 50%;
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
