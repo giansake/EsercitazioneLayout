@@ -117,7 +117,7 @@ button {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
-  background-color: white;
+  background-color: lightgray;
 }
 .gridgradients {
   width: 30%;
