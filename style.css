@@ -125,6 +125,8 @@ button {
   display: grid;
   grid-template-rows: 1fr 1fr;
   grid-template-columns: 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
 }
 .images {
   width: 50%;
