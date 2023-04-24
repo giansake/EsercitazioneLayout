@@ -117,10 +117,18 @@ button {
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+}
+.secondsection {
   background-color: lightgray;
+  width: 75%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 5px;
 }
 .gridgradients {
-  width: 30%;
+  width: 50%;
   height: 300px;
   display: grid;
   grid-template-rows: 1fr 1fr;
