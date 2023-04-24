@@ -3,6 +3,10 @@
   grid-template-columns: 1fr 1fr;
 }
 
+.navbar {
+  background-color: red;
+  height: 60px;
+}
 /* ---- */
 .image-wrapper {
   position: relative;
